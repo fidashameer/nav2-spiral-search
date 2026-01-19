@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nav2_spiral_search</name>
+  <version>0.1.0</version>
+  <description>
+    Nav2-based spiral search and cone approach behavior using waypoint goals.
+  </description>
+
+  <maintainer email="fidashameer06@gmail.com">Fida Shameer</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav2_simple_commander</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
