@@ -39,8 +39,6 @@ successfully.
 
 ---
 
-## State Transitions
-
 
 ## Design Rationale
 
