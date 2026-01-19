@@ -29,8 +29,8 @@ class ConeDetectionPoseNode(Node):
         self.NAV_OFFSET = 0.5  # stop before cone
 
         weight_path = os.path.join(
-            get_package_share_directory('cartier_utils'),
-            "cartier_utils",
+            get_package_share_directory('nav2_spiral_search'),
+            "nav2_spiral_search",
             "weights.pt"
         )
 
